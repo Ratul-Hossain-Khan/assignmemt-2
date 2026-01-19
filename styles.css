@@ -39,7 +39,7 @@
 
 nav {
   padding: 16px 200px;
-  background-color: #412567;
+  background-color: #1A0B2E;
   max-width: 1600px;
   margin: 0 auto;
 } 
@@ -85,11 +85,14 @@ nav ul li a:hover {
 
 .header-section {
   text-align: center;
-  padding-top: 490px;
+  padding-top: 445px;
   padding-bottom: 100px;
   background-image:url(./images/microphone.png) , url('./images/hero-circle.png'), url('./images/hero-bg.png');
   background-position: center bottom 68%, center bottom 75%, center;
   background-repeat: no-repeat;
+  position: relative;
+
+  
 }
 
 .button-group {
@@ -111,3 +114,61 @@ nav ul li a:hover {
   color: #dddddd;
 }
 
+.about-section {
+  background-color: #1A0B2E;
+  max-width: 1600px;
+  margin: 0 auto;
+  
+
+}
+
+.about-content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-text h2{
+  font-size: 48px;
+  color: #ffffff;
+  margin-top: 16px;
+  max-width: 600px;
+  margin: 16px auto 0 auto;
+
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 16px;
+  max-width: 800px;
+  margin: 16px auto 0 auto;
+  font-weight: 400;
+
+}
+
+.about-rocks {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  margin-top: 80px;
+  
+  padding: 80px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #ffffff 1px solid;
+}
+
+.about-rocks h2 {
+  font-size: 48px;
+  color: #00ff88;
+  font-weight: 800;
+}
+
+.about-rocks p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 16px;
+  font-weight: 400;
+}
