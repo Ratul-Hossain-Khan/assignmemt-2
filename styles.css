@@ -235,7 +235,9 @@ nav ul li a:hover {
   gap: 30px;
   margin-top: 60px;
   max-width: 1200px;
+  max-height: 502px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .host-card-left{
@@ -268,7 +270,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 30px;
   margin-top: 60px;
-  max-width: 1050px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
