@@ -38,15 +38,13 @@
 }
 
 nav {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 200px;
   background-color: #412567;
-} 
-
-.nav-bar {
-  width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+} 
+ 
+.nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +83,31 @@ nav ul li a:hover {
   color: #ffea00;
 }
 
+.header-section {
+  text-align: center;
+  padding-top: 490px;
+  padding-bottom: 100px;
+  background-image:url(./images/microphone.png) , url('./images/hero-circle.png'), url('./images/hero-bg.png');
+  background-position: center bottom 68%, center bottom 75%, center;
+  background-repeat: no-repeat;
+}
 
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
  
+.header-section h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.header-section p {
+  font-size: 16px;
+  color: #dddddd;
+}
 
