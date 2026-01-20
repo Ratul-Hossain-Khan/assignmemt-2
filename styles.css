@@ -83,6 +83,10 @@ nav ul li a:hover {
   color: #ffea00;
 }
 
+.nav-img{
+  display: none;
+}
+
 .header-section {
   text-align: center;
   padding-top: 445px;
@@ -511,6 +515,10 @@ nav ul li a:hover {
     nav ul {
     display: none;
     }
+
+    .nav-img{
+  display: block;
+}
 
     .btn{
       display: none;
