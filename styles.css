@@ -517,8 +517,8 @@ nav ul li a:hover {
     }
 
     .nav-img{
-  display: block;
-}
+      display: block;
+    }
 
     .btn{
       display: none;
