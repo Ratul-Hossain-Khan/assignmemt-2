@@ -493,3 +493,186 @@ nav ul li a:hover {
    font-weight:400;
 }
 
+.hide{
+  display: none !important;
+}
+
+@media screen and (max-width:576px) {
+  
+    nav {
+    padding: 16px 20px;
+    }  
+
+    .gradient-text,
+    h1 {
+      text-align: left;
+    }
+
+    nav ul {
+    display: none;
+    }
+
+    .btn{
+      display: none;
+    }
+
+
+    .header-section{
+    padding-top: 360px;
+    padding-bottom: 10px;
+
+    background-size:
+      60px,    
+      200px,    
+      cover;
+
+    background-position:
+      center bottom 66%,
+      center bottom 72%,
+      center;
+  }
+
+    .about-rocks{
+      flex-wrap: wrap;
+      margin-top: 40px;
+      padding: 40px 20px;
+      margin-bottom: -40px;
+    }
+
+    .header-section h2 {
+    font-size: 40px;
+    }
+
+    .button-group {
+    gap: 8px;
+    }
+
+    .ready,
+    .meet,
+    .host-section
+    .about-content {
+      padding: 40px 20px;
+    }
+    .ready-content h2,
+    .host-text h2,
+    .about-text h2{
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+
+
+   
+
+    
+.host-section{
+    padding: 60px 16px;
+  }
+
+  .host-text h2{
+    font-size: 26px;
+    margin-bottom: 170px;
+  }
+
+  /* top section */
+  .host-section-cards-top{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .host-card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* bottom section */
+  .host-section-cards-buttom{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  /* cards */
+  .host-card,
+  .host-card-left{
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .host-card h3,
+  .host-card-left h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .host-card p,
+  .host-card-left p{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .host-card img,
+  .host-card-left img{
+    width: 32px;
+  }
+
+    .ready-seation {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .ready-video h3 {
+      font-size: 20px;
+    }
+
+    .meet-content h2{
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+    .meet-seation{
+    flex-direction: column;
+    text-align: center;
+    }
+    .meet-content h3,
+    .meet-content p{
+    text-align: center;
+    }
+    .icon{
+    justify-content: center;
+    }
+
+    .footer{
+      padding-top: 40px;
+        background-size: 100% 100%;
+
+    }
+
+    .footer-content h2,
+    .gradient-h2 {
+      font-size: 42px;
+      padding-bottom: 16px;
+    }
+
+    .media{
+      padding: 0 40px;
+      flex-wrap: wrap;
+    }
+
+    .media p{
+      padding: 8px 20px;
+    }
+
+    .footer-content p {
+      padding-top: 24px;
+    }
+
+
+   
+
+
+
+
+
+
+
+    
+}
